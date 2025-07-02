@@ -29,8 +29,9 @@ jobs:
       run: java -jar uber-apk-signer-1.3.0.jar --apks youcine_MOD.apk
 
     # 5. Faz o upload do APK final como um "artefato"
+    #    Isso permitirá que você baixe o arquivo no final da execução
     - name: Upload Final APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4 # <-- AQUI ESTÁ A CORREÇÃO
       with:
         name: Signed-Youcine-APK
         path: youcine_MOD-aligned-debugSigned.apk
