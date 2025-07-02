@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivAd" android:visibility="visible" android:layout_width="180.0dip" android:layout_height="102.0dip" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.mobile.brasiltv.view.ProgressIcon android:id="@id/ivClose" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginStart="6.0dip" app:layout_constraintStart_toEndOf="@id/ivAd" app:layout_constraintTop_toTopOf="@id/ivAd" />
+    <ImageView android:id="@id/ivNoAd" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="23.0dip" android:src="@drawable/ic_no_ad" app:layout_constraintStart_toStartOf="@id/ivClose" app:layout_constraintTop_toBottomOf="@id/ivClose" />
+    <TextView android:textSize="28.0px" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/tvFlag" android:background="@drawable/shape_bg_ad_flag" android:paddingLeft="17.0px" android:paddingRight="17.0px" android:layout_width="wrap_content" android:layout_height="40.0px" android:text="@string/ad_flag" android:paddingHorizontal="17.0px" app:layout_constraintEnd_toEndOf="@id/ivAd" app:layout_constraintTop_toTopOf="@id/ivAd" />
+</androidx.constraintlayout.widget.ConstraintLayout>

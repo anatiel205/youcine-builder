@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:id="@id/autoFrameLayout" android:background="@color/color_363638" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoFrameLayout android:id="@id/contentRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.player.widget.media.vod.VodVideoView android:id="@id/mVideoViewVod" android:background="@color/color_000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/mPlayPauseIcon" android:visibility="gone" android:layout_width="100.0px" android:layout_height="100.0px" android:src="@drawable/ic_vod_to_play" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/mImageLock" android:background="@drawable/shape_bg_play_lock" android:visibility="gone" android:layout_width="68.0px" android:layout_height="68.0px" android:layout_marginLeft="24.0px" android:src="@drawable/ic_unlock" android:scaleType="center" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/mFullImageFeedback" android:background="@drawable/shape_bg_play_lock" android:visibility="gone" android:layout_width="80.0px" android:layout_height="80.0px" android:layout_marginRight="24.0px" android:src="@drawable/ic_feedback_full" />
+        <include layout="@layout/include_live_buffer_download" />
+        <include layout="@layout/layout_vod_controller_panel_download" />
+        <include layout="@layout/layout_gesture_controller_download" />
+    </com.zhy.autolayout.AutoFrameLayout>
+</com.zhy.autolayout.AutoFrameLayout>

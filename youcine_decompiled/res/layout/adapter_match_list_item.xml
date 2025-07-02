@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mMatchRoot" android:background="@drawable/shape_match_item_bg" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_b3b3b3" android:gravity="center" android:layout_gravity="center" android:id="@id/endPage" android:paddingTop="30.0px" android:paddingBottom="35.0px" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/this_is_the_end" />
+    <TextView android:textSize="24.0px" android:textColor="@color/ffffff" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0px" android:layout_marginTop="22.0px" />
+    <View android:id="@id/mLine" android:background="@color/color_383947" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="15.0px" />
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:id="@id/mLayoutMatch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="58.0px">
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="60.0px" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivTeamAIcon" android:layout_width="80.0px" android:layout_height="80.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_c4c4c4" android:ellipsize="marquee" android:id="@id/tvTeamAName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:singleLine="true" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="28.0px" android:textColor="@color/color_ffaa00" android:id="@id/mMatchTime" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="32.0px" android:textColor="@color/ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:text="@string/vs" />
+            <TextView android:textSize="20.0px" android:textColor="@color/color_55c1ff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvMatchState" android:background="@drawable/shape_match_item_bnt_bg" android:layout_width="148.0px" android:layout_height="36.0px" android:layout_marginTop="20.0px" android:layout_marginBottom="42.0px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="60.0px" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivTeamBIcon" android:layout_width="80.0px" android:layout_height="80.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_c4c4c4" android:ellipsize="marquee" android:id="@id/tvTeamBName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:singleLine="true" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

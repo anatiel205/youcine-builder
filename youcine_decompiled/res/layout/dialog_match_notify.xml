@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:background="@drawable/shape_match_notify_bg" android:layout_width="600.0px" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="48.0px" android:textStyle="bold" android:textColor="@color/color_1a1a1a" android:gravity="center" android:id="@id/mTime" android:background="@drawable/shape_match_notify_title" android:layout_width="fill_parent" android:layout_height="80.0px" android:singleLine="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mRvMatch" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.zhy.autolayout.AutoLinearLayout>

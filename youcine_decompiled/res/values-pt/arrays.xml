@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="play_setting_play_ratio">
+        <item>Estirar</item>
+        <item>Adaptar</item>
+        <item>Estirar</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:background="@drawable/shape_bg_pop_subtitle" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mLayoutAudioSubtitle" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="32.0px" android:textColor="@color/selector_color_subtitle_enable" android:gravity="center" android:id="@id/mTvAudio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="33.0px" android:text="@string/vod_audio" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mRvAudio" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="34.0px" />
+        <com.zhy.autolayout.AutoFrameLayout android:layout_width="fill_parent" android:layout_height="48.0px">
+            <TextView android:textSize="36.0px" android:textColor="@color/color_important_white" android:gravity="center" android:id="@id/mTvSwitch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="33.0px" android:text="@string/mine_subtitle" />
+            <ImageView android:layout_gravity="right" android:id="@id/mIvSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="33.0px" android:src="@drawable/selector_switch_block" android:scaleType="center" />
+        </com.zhy.autolayout.AutoFrameLayout>
+        <TextView android:textSize="28.0px" android:textColor="@color/selector_color_subtitle_enable" android:gravity="center" android:id="@id/mTvLanguage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="33.0px" android:text="@string/subtitle_language" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mRvLanguage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="34.0px" />
+        <TextView android:textSize="28.0px" android:textColor="@color/selector_color_subtitle_enable" android:gravity="center" android:id="@id/mTvSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="33.0px" android:text="@string/subtitle_size" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mRvSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="34.0px" />
+        <TextView android:textSize="28.0px" android:textColor="@color/selector_color_subtitle_enable" android:gravity="center" android:id="@id/mTvStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="33.0px" android:text="@string/subtitle_Style" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mRvStyle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="34.0px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <ImageView android:layout_gravity="right" android:id="@id/mIvClose" android:padding="28.0px" android:layout_width="88.0px" android:layout_height="88.0px" android:layout_marginRight="8.0px" android:src="@drawable/icon_pop_close" android:scaleType="fitXY" />
+</com.zhy.autolayout.AutoFrameLayout>

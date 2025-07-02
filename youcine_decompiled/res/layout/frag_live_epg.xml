@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/mViewShade" android:background="@drawable/bg_live_info_below" android:layout_width="fill_parent" android:layout_height="24.0px" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mRecyclerViewSort" android:scrollbars="vertical" android:layout_width="240.0px" android:layout_height="fill_parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mRecyclerViewEpg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/mRecyclerViewSort" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_cccccc" android:gravity="center" android:id="@id/mTvNoData" android:background="@color/color_1f202a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/live_epg_no_data" android:layout_toRightOf="@id/mRecyclerViewSort" />
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:background="@drawable/bg_aty_dmca" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="32.0px" android:textColor="@color/color_important_white" android:ellipsize="marquee" android:paddingLeft="29.0px" android:paddingRight="29.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="170.0px" android:text="@string/dmca_tips" android:singleLine="false" android:marqueeRepeatLimit="marquee_forever" />
+    <Button android:textSize="32.0px" android:textColor="@color/color_important_white" android:layout_gravity="bottom|center" android:id="@id/mBtnAgree" android:background="@drawable/shape_introduce_button_bg" android:layout_width="420.0px" android:layout_height="90.0px" android:layout_marginBottom="189.0px" android:text="@string/dmca_agree" android:textAllCaps="false" />
+</com.zhy.autolayout.AutoFrameLayout>

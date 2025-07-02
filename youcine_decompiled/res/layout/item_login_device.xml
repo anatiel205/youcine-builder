@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:id="@id/mLayoutDevice" android:background="@drawable/shape_delete_device_item_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="164.0px" android:layout_marginTop="30.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:background="@mipmap/bg_item_delete_device_left" android:layout_width="132.0px" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/mIvDeviceType" android:layout_width="74.0px" android:layout_height="74.0px" android:layout_marginLeft="42.0px" android:src="@drawable/ic_device_mob" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:layout_width="554.0px" android:layout_height="fill_parent" android:layout_marginLeft="152.0px">
+        <TextView android:textSize="28.0px" android:textColor="@color/white" android:ellipsize="end" android:gravity="left" android:id="@id/mTvDeviceName" android:layout_width="384.0px" android:layout_height="wrap_content" android:layout_marginTop="46.0px" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="24.0px" android:textColor="@color/color_8D8E91" android:ellipsize="end" android:id="@id/mTvLoginArea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0px" android:singleLine="true" android:includeFontPadding="false" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView android:textSize="20.0px" android:textColor="@color/color_bbbbbb" android:ellipsize="end" android:layout_gravity="center|right|top" android:id="@id/mTvLoginTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0px" android:layout_marginRight="80.0px" android:singleLine="true" android:includeFontPadding="false" />
+    <ImageView android:layout_gravity="center|right" android:id="@id/mIvSelect" android:layout_width="40.0px" android:layout_height="40.0px" android:layout_marginRight="56.0px" android:src="@drawable/bg_single_select" />
+</com.zhy.autolayout.AutoFrameLayout>

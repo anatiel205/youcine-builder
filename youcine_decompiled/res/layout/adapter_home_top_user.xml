@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="36.0px" android:textStyle="bold" android:textColor="@color/color_fffefe" android:id="@id/mTvTopUser" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_marginTop="24.0px" android:layout_marginBottom="20.0px" android:text="@string/top_user_title" />
+    <com.mobile.brasiltv.view.AutoPollRecyclerView android:id="@id/mAprvTopUser" android:background="@drawable/bg_top_user" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="144.0px" android:layout_marginLeft="24.0px" android:layout_marginRight="24.0px" />
+</com.zhy.autolayout.AutoLinearLayout>

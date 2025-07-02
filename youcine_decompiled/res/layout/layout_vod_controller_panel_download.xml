@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.module.base.view.AlphaRelativeLayout android:id="@id/mLayoutController" android:background="@drawable/bg_play_fullscreen_shadow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mImageBack" android:layout_width="88.0px" android:layout_height="88.0px" android:layout_marginTop="32.0px" android:src="@drawable/app_icon_whiteback" android:scaleType="center" />
+    <com.zhy.autolayout.AutoRelativeLayout android:id="@id/mLayoutControllerWithoutBack" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_f5f5f5" android:gravity="center_vertical" android:id="@id/mTextTitle" android:paddingBottom="10.0px" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="88.0px" android:layout_marginLeft="88.0px" android:layout_marginTop="32.0px" android:singleLine="true" />
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llMenu" android:paddingRight="60.0px" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="88.0px" android:layout_marginTop="32.0px" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/mImageScreen" android:visibility="gone" android:layout_width="56.0px" android:layout_height="44.0px" android:layout_marginLeft="60.0px" android:src="@drawable/ic_screen" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/mFullFunction" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="202.0px" android:layout_alignParentBottom="true">
+            <com.zhy.autolayout.AutoLinearLayout android:gravity="bottom" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="80.0px">
+                <TextView android:textSize="24.0px" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@id/mFullCurTime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="23.0px" android:layout_marginRight="6.0px" />
+                <SeekBar android:layout_gravity="center_vertical" android:id="@id/mFullSeekBar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxHeight="3.0dip" android:progress="0" android:progressDrawable="@drawable/seekbar" android:minHeight="3.0dip" android:thumb="@drawable/ic_play_thumb" android:layout_weight="1.0" android:paddingStart="0.0px" android:paddingEnd="0.0px" />
+                <TextView android:textSize="24.0px" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@id/mFullTotalTime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0px" android:layout_marginRight="24.0px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+            <com.zhy.autolayout.AutoFrameLayout android:paddingBottom="20.0px" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="122.0px">
+                <ImageView android:layout_gravity="center" android:id="@id/mPlayRewindIcon" android:layout_width="75.0px" android:layout_height="78.0px" android:layout_marginRight="148.0px" android:src="@drawable/ic_vod_fast_rewind" />
+                <ImageView android:layout_gravity="center" android:id="@id/mFullPlayPauseIcon" android:layout_width="102.0px" android:layout_height="102.0px" android:src="@drawable/ic_full_vod_play" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <ImageView android:layout_gravity="center" android:id="@id/mPlayForwardIcon" android:layout_width="75.0px" android:layout_height="78.0px" android:layout_marginLeft="148.0px" android:src="@drawable/ic_vod_fast_forward" />
+                <ImageView android:layout_gravity="center|right" android:id="@id/mFullImgTrackSubtitle" android:visibility="gone" android:layout_width="56.0px" android:layout_height="48.0px" android:layout_marginRight="32.0px" android:src="@drawable/playdetail_icon_screen_cc" android:scaleType="center" />
+            </com.zhy.autolayout.AutoFrameLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mLayoutSubtitle" android:background="@color/color_d9000000" android:visibility="gone" android:layout_width="490.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="86.0px" android:text="@string/subtitle" />
+            <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerSubTitle" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:overScrollMode="never" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.module.base.view.AlphaRelativeLayout>

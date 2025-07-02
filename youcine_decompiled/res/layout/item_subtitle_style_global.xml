@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:id="@id/mLayout" android:layout_width="wrap_content" android:layout_height="90.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoFrameLayout android:background="@drawable/shape_bg_style_item" android:layout_width="90.0px" android:layout_height="fill_parent">
+        <TextView android:layout_gravity="center" android:id="@id/mBgBlack" android:background="@drawable/shape_bg_subtitle_style" android:visibility="gone" android:layout_width="72.0px" android:layout_height="72.0px" />
+        <TextView android:textSize="28.0px" android:gravity="center" android:layout_gravity="center" android:id="@id/mTvOption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Aa" />
+    </com.zhy.autolayout.AutoFrameLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/mIvSelected" android:visibility="invisible" android:layout_width="27.0px" android:layout_height="20.0px" android:layout_marginLeft="15.0px" android:src="@drawable/iv_selected" />
+</com.zhy.autolayout.AutoLinearLayout>

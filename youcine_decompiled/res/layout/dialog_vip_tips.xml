@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:background="@drawable/shape_common_dialog_bg" android:paddingBottom="40.0px" android:layout_width="600.0px" android:layout_height="530.0px">
+        <TextView android:textSize="36.0px" android:textStyle="bold" android:textColor="@color/color_1a1a1a" android:layout_gravity="center_horizontal" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52.0px" android:text="@string/vip_purchase" />
+        <TextView android:textSize="27.0px" android:textColor="@color/color_1a1a1a" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="39.0px" android:layout_marginTop="45.0px" android:layout_marginRight="39.0px" android:text="@string/vip_can_enjoy" />
+        <TextView android:textSize="25.0px" android:textColor="@color/color_666666" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="42.0px" android:layout_marginTop="30.0px" android:layout_marginRight="42.0px" android:text="@string/vip_privileges" />
+        <TextView android:textSize="32.0px" android:textColor="@color/color_ffffff" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvTop" android:background="@drawable/shape_green_radius_solid" android:layout_width="480.0px" android:layout_height="90.0px" android:layout_marginTop="53.0px" android:text="@string/cast_purchase" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoFrameLayout>

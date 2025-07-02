@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:background="@drawable/shape_bg_pop_subtitle" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoRelativeLayout android:layout_width="fill_parent" android:layout_height="119.0px" android:layout_marginLeft="34.0px">
+        <TextView android:textSize="36.0px" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upload" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/close" android:padding="25.0px" android:layout_width="90.0px" android:layout_height="80.0px" android:src="@drawable/icon_close_white" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <View android:background="#ff4d4d4d" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="24.0px" android:textColor="#ffffffff" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="58.0px" android:layout_marginLeft="33.0px" android:layout_marginTop="27.0px" android:text="@string/upload_title" />
+    <com.zhy.autolayout.AutoRelativeLayout android:layout_width="fill_parent" android:layout_height="68.0px" android:layout_marginTop="27.0px">
+        <ImageView android:id="@id/mega" android:layout_width="68.0px" android:layout_height="68.0px" android:layout_marginLeft="34.0px" android:src="@drawable/mega" />
+        <TextView android:textSize="28.0px" android:textColor="#ffffffff" android:id="@id/megaText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0px" android:layout_marginTop="22.0px" android:text="@string/mega" android:layout_toRightOf="@id/mega" />
+        <ImageView android:id="@id/googledriv" android:layout_width="68.0px" android:layout_height="60.0px" android:layout_marginRight="11.0px" android:src="@drawable/googledriv" android:layout_toLeftOf="@id/gooleText" />
+        <TextView android:textSize="28.0px" android:textColor="#ffffffff" android:id="@id/gooleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0px" android:layout_marginRight="153.0px" android:text="@string/googledrive" android:layout_alignParentRight="true" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <com.zhy.autolayout.AutoRelativeLayout android:layout_width="fill_parent" android:layout_height="68.0px" android:layout_marginTop="46.0px" android:layout_marginBottom="86.0px">
+        <ImageView android:id="@id/dropbox" android:layout_width="68.0px" android:layout_height="57.0px" android:layout_marginLeft="33.0px" android:src="@drawable/dropbox" />
+        <TextView android:textSize="28.0px" android:textColor="#ff666666" android:id="@id/dropText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0px" android:layout_marginTop="13.0px" android:text="@string/dropbox" android:layout_toRightOf="@id/dropbox" />
+        <ImageView android:id="@id/amazondrive" android:layout_width="68.0px" android:layout_height="68.0px" android:layout_marginRight="9.0px" android:src="@drawable/amazondrive" android:layout_toLeftOf="@id/amazonText" />
+        <TextView android:textSize="28.0px" android:textColor="#ff666666" android:id="@id/amazonText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:layout_marginRight="139.0px" android:text="Amazondrive" android:layout_alignParentRight="true" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager.widget.ViewPager android:id="@id/mViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/mLayoutPoint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="80.0px" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="26.0px" android:textColor="@color/color_999999" android:gravity="center_vertical" android:id="@id/mTextIntroduceSecond" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="23.0px" android:layout_marginTop="981.0px" android:layout_marginRight="23.0px" />
+    <TextView android:textSize="32.0px" android:textStyle="bold" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@id/mTextIntroduceFirst" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_marginTop="875.0px" android:layout_marginRight="24.0px" />
+    <Button android:textSize="15.0sp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/mButtonEnter" android:background="@drawable/shape_introduce_button_bg" android:layout_width="420.0px" android:layout_height="90.0px" android:layout_marginBottom="144.0px" android:text="@string/experience_now" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+</com.zhy.autolayout.AutoRelativeLayout>

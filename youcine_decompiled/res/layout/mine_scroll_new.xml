@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:background="@color/color_181c25" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="34.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoLinearLayout android:id="@id/mAllVipAndInviteNew" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="150.0px" android:layout_marginLeft="31.0px" android:layout_marginRight="31.0px" android:layout_marginBottom="33.0px">
+        <com.zhy.autolayout.AutoLinearLayout android:id="@id/mAflJoinVipNew" android:background="@drawable/bg_mine_join_vip_new" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginRight="22.0px" android:layout_weight="1.0">
+            <TextView android:textSize="36.0px" android:textStyle="bold" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:layout_marginTop="24.0px" android:text="@string/mine_renew_vip" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:id="@id/mInviteFriendWrapperNew" android:background="@drawable/bg_mine_invite_friend_new" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="36.0px" android:textStyle="bold" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:layout_marginTop="24.0px" android:text="@string/mine_invite_friend" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mMemberCenter" android:background="@drawable/bg_mine_scroll_new" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="34.0px" android:layout_marginRight="34.0px" android:layout_marginBottom="30.0px">
+        <TextView android:textSize="34.0px" android:textStyle="bold" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:layout_marginTop="46.0px" android:layout_marginBottom="72.0px" android:text="@string/mine_member_center_new" />
+        <com.zhy.autolayout.AutoLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="46.0px">
+            <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mLayoutOrderNew" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/orderImage" android:layout_width="50.0px" android:layout_height="50.0px" android:layout_marginBottom="22.0px" android:src="@drawable/icon_mine_order_new" android:scaleType="fitCenter" />
+                <TextView android:textSize="26.0px" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_order" />
+            </com.zhy.autolayout.AutoLinearLayout>
+            <com.zhy.autolayout.AutoRelativeLayout android:id="@id/mMiBenefitNew" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/benefitImage" android:layout_width="50.0px" android:layout_height="50.0px" android:layout_marginBottom="22.0px" android:src="@drawable/icon_mine_benefit_new" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+                <TextView android:id="@id/benefitTip" android:background="@drawable/bg_red_dot_msg_box" android:visibility="gone" android:layout_width="20.0px" android:layout_height="20.0px" android:layout_toRightOf="@id/benefitImage" />
+                <TextView android:textSize="26.0px" android:textColor="@color/color_ffffff" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_renard_center_new" android:layout_below="@id/benefitImage" android:layout_centerHorizontal="true" />
+            </com.zhy.autolayout.AutoRelativeLayout>
+            <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mLayoutDownLoad" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/dlImage" android:layout_width="50.0px" android:layout_height="50.0px" android:layout_marginBottom="22.0px" android:src="@mipmap/icons_person_center" android:scaleType="fitCenter" />
+                <TextView android:textSize="26.0px" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vod_download" />
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:background="@drawable/bg_mine_scroll_new" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="34.0px" android:layout_marginRight="34.0px">
+        <TextView android:textSize="34.0px" android:textStyle="bold" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:layout_marginTop="46.0px" android:layout_marginBottom="72.0px" android:text="@string/mine_other_functions" />
+        <com.zhy.autolayout.AutoLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="58.0px">
+            <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mMiLanguageNew" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/languageImage" android:layout_width="50.0px" android:layout_height="50.0px" android:layout_marginBottom="22.0px" android:src="@drawable/icon_mine_language_new" android:scaleType="fitCenter" />
+                <TextView android:textSize="26.0px" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_language_new" />
+            </com.zhy.autolayout.AutoLinearLayout>
+            <com.zhy.autolayout.AutoRelativeLayout android:id="@id/mMiSettingNew" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/settingImage" android:layout_width="50.0px" android:layout_height="50.0px" android:layout_marginBottom="22.0px" android:src="@drawable/icon_mine_setting_new" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+                <TextView android:id="@id/updateVersionTip" android:background="@drawable/bg_red_dot_msg_box" android:visibility="gone" android:layout_width="20.0px" android:layout_height="20.0px" android:layout_toRightOf="@id/settingImage" />
+                <TextView android:textSize="26.0px" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_setting" android:layout_below="@id/settingImage" android:layout_centerHorizontal="true" />
+            </com.zhy.autolayout.AutoRelativeLayout>
+            <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mMiSubtitleNew" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/subtitleImage" android:layout_width="50.0px" android:layout_height="50.0px" android:layout_marginBottom="22.0px" android:src="@drawable/icon_mine_subtitle_new" android:scaleType="fitCenter" />
+                <TextView android:textSize="26.0px" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vod_subtitle_and_audio" />
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="55.0px">
+            <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mLayoutHelpNew" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/helpImage" android:layout_width="50.0px" android:layout_height="50.0px" android:layout_marginBottom="22.0px" android:src="@drawable/icon_mine_help_new" android:scaleType="fitCenter" />
+                <TextView android:textSize="26.0px" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback" />
+            </com.zhy.autolayout.AutoLinearLayout>
+            <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mLayoutShareAppNew" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/shareImage" android:layout_width="50.0px" android:layout_height="50.0px" android:layout_marginBottom="22.0px" android:src="@drawable/icon_mine_share_new" android:scaleType="fitCenter" />
+                <TextView android:textSize="26.0px" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_share_new" />
+            </com.zhy.autolayout.AutoLinearLayout>
+            <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mLayoutRewardNew" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/shareImage" android:layout_width="50.0px" android:layout_height="50.0px" android:layout_marginBottom="22.0px" android:src="@drawable/icon_mine_event_new" android:scaleType="fitCenter" />
+                <TextView android:textSize="26.0px" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_reward_center" />
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

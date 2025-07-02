@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/shape_common_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="36.0px" android:textStyle="bold" android:textColor="@color/color_1a1a1a" android:layout_gravity="center" android:id="@id/dialogTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0px" android:text="@string/notice_title" />
+    <com.zhy.autolayout.AutoFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="24.0px" android:textColor="@color/color_666666" android:gravity="center" android:id="@id/dialogContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0px" android:layout_marginTop="50.0px" android:layout_marginRight="50.0px" />
+    </com.zhy.autolayout.AutoFrameLayout>
+    <Button android:textColor="@color/color_ffffff" android:layout_gravity="center_horizontal" android:id="@id/dialogClose" android:background="@drawable/shape_common_focused_button" android:clickable="true" android:layout_width="480.0px" android:layout_height="90.0px" android:layout_marginTop="53.0px" android:layout_marginBottom="50.0px" android:scaleType="center" android:text="@string/confirm" />
+</com.zhy.autolayout.AutoLinearLayout>

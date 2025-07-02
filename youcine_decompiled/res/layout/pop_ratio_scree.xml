@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mLayoutScreenRatio" android:background="@color/color_cc000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoLinearLayout android:layout_width="fill_parent" android:layout_height="119.0px">
+        <TextView android:textSize="36.0px" android:textColor="@color/color_important_white" android:gravity="center" android:id="@id/mTvTitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="33.0px" android:text="@string/screen_ratio" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <View android:background="@color/color_4c4c4c" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mRvRatio" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_marginTop="40.0px" android:overScrollMode="never" />
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/op_black" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:id="@id/mSelectLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_marginTop="40.0px">
+        <com.zhy.autolayout.AutoFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/color_ffffff" android:layout_gravity="center_vertical" android:id="@id/mTvSeason" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Season 1" />
+            <com.mobile.brasiltv.view.vod.SeasonSpinner android:layout_gravity="center_vertical" android:id="@id/mSSSeason" android:background="@drawable/bg_spinner_season" android:visibility="gone" android:layout_width="200.0px" android:layout_height="48.0px" />
+        </com.zhy.autolayout.AutoFrameLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_cccccc" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/mTextSetNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epsode_all" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mRecyclerSelectInfo" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_marginTop="30.0px" android:layout_below="@id/mSelectLayout" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/mTableSelectInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_below="@id/mRecyclerSelectInfo" app:tabGravity="fill" app:tabIndicatorHeight="0.0dip" app:tabMinWidth="50.0dip" app:tabMode="scrollable" app:tabPaddingStart="1.0dip" app:tabPaddingTop="25.0px" app:tabSelectedTextColor="@color/color_important" app:tabTextColor="@color/color_cccccc" app:tl_textsize="12.0sp" />
+</merge>

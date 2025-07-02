@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout android:layout_gravity="center" android:background="@drawable/shape_dialog_common_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="36.0px" android:textStyle="bold" android:textColor="@color/color_1a1a1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="54.0px" android:text="@string/restart_title" />
+        <TextView android:textSize="27.0px" android:textColor="@color/color_1a1a1a" android:gravity="center|top" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="105.0px" android:layout_marginLeft="60.0px" android:layout_marginTop="68.0px" android:layout_marginRight="60.0px" android:text="@string/restart_tips" android:layout_marginHorizontal="60.0px" />
+        <com.mobile.brasiltv.view.KoocanButton android:textSize="32.0px" android:textColor="@color/color_ffffff" android:id="@id/restart_app" android:background="@drawable/shape_bg_btn_update_dialog" android:layout_width="fill_parent" android:layout_height="90.0px" android:layout_marginLeft="60.0px" android:layout_marginTop="88.0px" android:layout_marginRight="60.0px" android:layout_marginBottom="30.0px" android:text="@string/restart_app" />
+        <com.mobile.brasiltv.view.KoocanButton android:textSize="32.0px" android:textColor="@color/color_999999" android:id="@id/restart_cancel" android:background="@drawable/bg_upgrade_cancel" android:layout_width="fill_parent" android:layout_height="90.0px" android:layout_marginLeft="60.0px" android:layout_marginRight="60.0px" android:layout_marginBottom="44.0px" android:text="@string/restart_cancel" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

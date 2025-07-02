@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="21.0sp" android:textColor="@color/color_ffffff" android:id="@id/mTextName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_marginTop="30.0px" android:text="@string/unkownInfo" android:singleLine="false" />
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:id="@id/mLlProvider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_marginTop="20.0px" android:layout_below="@id/mTextName">
+        <TextView android:textSize="24.0px" android:textColor="@color/color_important_white" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.0px" android:text="@string/provide_by" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/mIvProvider" android:layout_width="wrap_content" android:layout_height="32.0px" android:layout_marginRight="6.0px" />
+        <TextView android:textSize="24.0px" android:textColor="@color/color_b3b3b3" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/mTvProviderAccount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mLinearInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_marginTop="20.0px" android:layout_marginRight="35.0px" android:layout_below="@id/mLlProvider">
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_cccccc" android:id="@id/mTextCountry" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_cccccc" android:id="@id/mTextReleaseTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_cccccc" android:ellipsize="end" android:id="@id/mTextType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:text="@string/type" android:singleLine="true" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_cccccc" android:ellipsize="end" android:id="@id/mTextDirector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:layout_marginTop="23.0px" android:text="@string/dector" android:singleLine="true" android:layout_below="@id/mLinearInfo" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_cccccc" android:ellipsize="end" android:id="@id/mTextActors" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:layout_marginRight="35.0px" android:text="@string/actor" android:singleLine="true" android:layout_below="@id/mTextDirector" android:layout_alignLeft="@id/mTextDirector" />
+    <com.zhy.autolayout.AutoFrameLayout android:id="@id/mCenterFunctionLayout" android:background="@drawable/shape_bg_vod_function" android:layout_width="fill_parent" android:layout_height="100.0px" android:layout_marginLeft="24.0px" android:layout_marginTop="34.0px" android:layout_marginRight="24.0px" android:layout_below="@id/mTextActors">
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:layout_gravity="end|center" android:orientation="vertical" android:id="@id/mFavLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="53.0px">
+            <ImageView android:id="@id/mImageFav" android:layout_width="46.0px" android:layout_height="42.0px" android:src="@drawable/ic_vod_unfav" android:scaleType="fitXY" />
+            <TextView android:textSize="18.0px" android:textColor="@color/color_secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0px" android:text="@string/favorites" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/mUplLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/mImageUpl" android:layout_width="56.0px" android:layout_height="42.0px" android:src="@drawable/ic_vod_unupload" android:scaleType="fitXY" />
+            <TextView android:textSize="18.0px" android:textColor="@color/color_secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0px" android:text="@string/upload" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/mDlLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="57.0px">
+            <ImageView android:id="@id/mImageDownloadUpl" android:layout_width="42.0px" android:layout_height="39.0px" android:src="@drawable/ic_vod_download" android:scaleType="fitXY" />
+            <TextView android:textSize="18.0px" android:textColor="@color/color_secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0px" android:text="@string/play_vod_download" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoFrameLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:id="@id/mLlGrade" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0px" android:layout_marginTop="38.0px" android:layout_below="@id/mLinearInfo">
+        <TextView android:textSize="28.0px" android:textColor="@color/color_important_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vod_parent_guide" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_important_white" android:gravity="center" android:id="@id/mTvGrade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="16+" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.mobile.brasiltv.player.view.ProgramSetInfoView android:id="@id/mProgramSetInfoView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mCenterFunctionLayout" />
+    <com.mobile.brasiltv.player.view.ProgramDetailView android:id="@id/mProgramDetail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mProgramSetInfoView" />
+</merge>

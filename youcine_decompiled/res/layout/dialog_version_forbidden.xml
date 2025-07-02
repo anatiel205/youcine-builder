@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:background="@drawable/shape_common_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="36.0px" android:textStyle="bold" android:textColor="@color/color_1a1a1a" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="120.0px" android:layout_marginTop="70.0px" android:layout_marginRight="120.0px" android:text="@string/version_forbidden_upgrade_title" />
+        <TextView android:textSize="26.0px" android:textColor="@color/color_333333" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0px" android:layout_marginTop="60.0px" android:layout_marginRight="40.0px" android:layout_marginBottom="56.0px" android:text="@string/version_forbidden_upgrade_content" android:lineSpacingExtra="40.0px" />
+        <com.module.base.view.AutoCardView android:layout_width="fill_parent" android:layout_height="90.0px" android:layout_marginLeft="60.0px" android:layout_marginRight="60.0px" app:cardBackgroundColor="@color/color_important" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip">
+            <TextView android:textSize="32.0px" android:textColor="@color/color_important_white" android:gravity="center" android:id="@id/mTvUpdate" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/upgrade" />
+        </com.module.base.view.AutoCardView>
+        <TextView android:textSize="26.0px" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/mTvUpgradeLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100.0px" android:layout_marginTop="35.0px" android:layout_marginRight="100.0px" android:layout_marginBottom="40.0px" android:text="@string/version_forbidden_upgrade_hint" />
+        <TextView android:textSize="20.0px" android:textColor="@color/color_999999" android:id="@id/mTvUserInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0px" android:text="@string/current_version" />
+        <TextView android:textSize="20.0px" android:textColor="@color/color_999999" android:id="@id/mTvContact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoFrameLayout android:id="@id/mAflLoading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="50.0px" android:layout_height="50.0px" android:indeterminateDrawable="@drawable/progress_loading" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+    </com.zhy.autolayout.AutoFrameLayout>
+</com.zhy.autolayout.AutoFrameLayout>

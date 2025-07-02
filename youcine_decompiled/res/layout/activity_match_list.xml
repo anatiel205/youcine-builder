@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mobile.brasiltv.view.TitleBarView android:id="@id/mTbvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleBgColor="@color/color_090e12" app:titleMenuIcon="@drawable/icon_delete_history" app:titleText="@string/watch_match" app:titleTextColor="@color/color_important_white" />
+    <cn.bingoogolapple.bgabanner.BGABanner android:id="@id/bannerMatch" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="75.0dip" app:banner_indicatorGravity="bottom|right" app:banner_pageChangeDuration="1000" app:banner_placeholderDrawable="@drawable/column_image_placeholder" app:banner_pointAutoPlayAble="true" app:banner_pointAutoPlayInterval="3000" app:banner_pointContainerBackground="@android:color/transparent" app:banner_pointDrawable="@drawable/bga_banner_point_dark" app:banner_pointLeftRightMargin="3.0dip" app:banner_pointTopBottomMargin="5.0dip" app:banner_tipTextSize="15.0sp" app:banner_transitionEffect="alpha" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/mRFLayout" android:background="@color/color_1f202a" android:paddingLeft="24.0px" android:paddingTop="10.0px" android:paddingRight="24.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobile.brasiltv.view.KoocanEmptyView android:id="@id/mLoadingView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emptyShowType="loading" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvMatch" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</com.zhy.autolayout.AutoLinearLayout>

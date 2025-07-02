@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout android:orientation="vertical" android:background="@drawable/shape_dialog_common_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mIvClose" android:padding="25.0px" android:layout_width="80.0px" android:layout_height="80.0px" android:src="@drawable/ic_dialog_close" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="36.0px" android:textStyle="bold" android:textColor="@color/color_1a1a1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="54.0px" android:text="@string/dialog_notivation" />
+        <TextView android:textSize="27.0px" android:textColor="@color/color_1a1a1a" android:gravity="center|top" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="105.0px" android:layout_marginLeft="40.0px" android:layout_marginTop="68.0px" android:layout_marginRight="40.0px" android:text="@string/please_bind_first" android:layout_marginHorizontal="40.0px" />
+        <com.mobile.brasiltv.view.KoocanButton android:textSize="32.0px" android:textColor="@color/color_ffffff" android:id="@id/dialog_submit" android:background="@drawable/shape_bg_btn_update_dialog" android:layout_width="fill_parent" android:layout_height="90.0px" android:layout_marginLeft="60.0px" android:layout_marginTop="88.0px" android:layout_marginRight="60.0px" android:layout_marginBottom="44.0px" android:text="@string/am_dialog_goto_bind" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

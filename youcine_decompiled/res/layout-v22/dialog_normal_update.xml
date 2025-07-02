@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout android:background="@drawable/shape_dialog_common_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mIvClose" android:padding="25.0px" android:layout_width="80.0px" android:layout_height="80.0px" android:src="@drawable/ic_dialog_close" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="70.0px" android:layout_centerHorizontal="true">
+        <TextView android:textSize="36.0px" android:textStyle="bold" android:textColor="@color/color_1a1a1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_version_upgrade" />
+        <TextView android:textSize="20.0px" android:textColor="@color/color_666666" android:id="@id/mTvAnimVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0px" />
+        <TextView android:textSize="26.0px" android:textColor="@color/color_333333" android:id="@id/mTvScroll" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="42.0px" android:maxWidth="460.0px" android:maxLines="6" />
+        <Button android:textSize="32.0px" android:textColor="@color/ffffff" android:id="@id/mBtnUpdate" android:background="@drawable/shape_bg_btn_update_dialog" android:layout_width="fill_parent" android:layout_height="90.0px" android:layout_marginLeft="60.0px" android:layout_marginTop="40.0px" android:layout_marginRight="60.0px" android:text="@string/common_update" android:textAllCaps="false" android:layout_marginHorizontal="60.0px" />
+        <TextView android:textSize="26.0px" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/mTvLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="84.0px" android:layout_marginTop="40.0px" android:layout_marginRight="84.0px" android:layout_marginHorizontal="84.0px" />
+        <TextView android:textSize="20.0px" android:textColor="@color/color_999999" android:id="@id/mTvUserInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0px" />
+        <TextView android:textSize="20.0px" android:textColor="@color/color_999999" android:id="@id/mTvContact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

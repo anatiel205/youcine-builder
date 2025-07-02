@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_ffffff" android:id="@id/mTextTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_marginTop="34.0px" android:text="@string/intro" />
+    <com.mobile.brasiltv.view.expandable.ExpandableTextView android:textSize="14.0sp" android:textColor="@color/color_999999" android:id="@id/mTextDetail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_marginTop="27.0px" android:layout_marginRight="38.0px" android:layout_below="@id/mTextTitle" android:lineSpacingExtra="4.0dip" app:ep_contract_color="@color/color_important" app:ep_expand_color="@color/color_important" app:ep_max_line="3" app:ep_need_contract="true" app:ep_need_expand="true" app:ep_need_link="false" app:ep_need_mention="false" />
+</merge>

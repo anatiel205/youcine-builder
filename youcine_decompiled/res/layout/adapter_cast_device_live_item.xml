@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout android:id="@id/mLayoutDevice" android:layout_width="fill_parent" android:layout_height="112.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mLlDevice" android:background="@drawable/bg_cast_device" android:layout_width="557.0px" android:layout_height="80.0px" android:layout_marginTop="15.0px" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="44.0px" android:layout_height="38.0px" android:layout_marginLeft="15.0px" android:src="@drawable/icon_cast_device" />
+        <TextView android:textSize="24.0px" android:textColor="@color/ffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/mTvDeviceName" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="22.0px" android:singleLine="true" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView android:textSize="20.0px" android:textColor="@color/color_101314" android:gravity="center" android:id="@id/mTvLastTime" android:background="@drawable/icon_label" android:layout_width="wrap_content" android:layout_height="31.0px" android:layout_marginRight="14.0px" android:text="@string/cast_last_device" android:layout_alignRight="@id/mLlDevice" />
+</com.zhy.autolayout.AutoRelativeLayout>

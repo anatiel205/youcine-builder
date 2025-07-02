@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.module.base.view.AutoCardView android:id="@id/mLayoutStream" android:clickable="true" android:layout_width="343.0px" android:layout_height="194.0px" android:foreground="?android:selectableItemBackground" android:src="@drawable/bg_live_stream_item" app:cardCornerRadius="10.0px">
+        <ImageView android:id="@id/mImgPoster" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <com.zhy.autolayout.AutoRelativeLayout android:layout_gravity="left" android:background="@drawable/shape_bg_identity" android:layout_width="65.0px" android:layout_height="38.0px">
+            <ImageView android:id="@id/mIvHot" android:layout_width="25.0px" android:layout_height="20.0px" android:layout_centerInParent="true" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.module.base.view.AutoCardView>
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_fffefe" android:id="@id/mTvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0px" />
+</com.zhy.autolayout.AutoLinearLayout>

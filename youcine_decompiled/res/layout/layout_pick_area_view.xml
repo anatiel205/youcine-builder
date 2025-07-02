@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoFrameLayout android:id="@id/mAflPickArea" android:background="@drawable/selector_bg_login_edit" android:layout_width="fill_parent" android:layout_height="90.0px">
+        <TextView android:textSize="15.0sp" android:textColor="@color/color_ffffff" android:layout_gravity="center_vertical" android:id="@id/mTvArea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0px" />
+        <ImageView android:layout_gravity="center|right" android:layout_width="26.0px" android:layout_height="26.0px" android:layout_marginRight="14.0px" android:src="@mipmap/ic_more_white" />
+    </com.zhy.autolayout.AutoFrameLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:background="@drawable/selector_bg_login_edit" android:layout_width="fill_parent" android:layout_height="90.0px" android:layout_marginTop="20.0px">
+        <TextView android:textSize="15.0sp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/mTvAreaCode" android:layout_width="140.0px" android:layout_height="fill_parent" />
+        <View android:layout_gravity="center_vertical" android:background="@color/color_515256" android:layout_width="2.0px" android:layout_height="40.0px" />
+        <EditText android:textSize="15.0sp" android:textColor="@color/color_ffffff" android:textColorHint="@color/color_999999" android:id="@id/mEtInput" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="18.0px" android:hint="@string/enter_your_phone_notice" android:singleLine="true" android:maxLength="17" android:layout_weight="1.0" android:inputType="number" />
+        <ImageView android:id="@id/mIvClear" android:padding="29.0px" android:visibility="gone" android:layout_width="90.0px" android:layout_height="90.0px" android:src="@drawable/ic_edit_clear" android:scaleType="fitXY" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</merge>

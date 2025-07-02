@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:background="@drawable/shape_common_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/color_important" android:gravity="center" android:id="@id/dialog_title" android:layout_width="fill_parent" android:layout_height="75.0px" android:text="@string/mine_setting_update_title" />
+    <View android:background="@color/color_dddddd" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_666666" android:gravity="center|left|top" android:id="@id/dialog_content" android:paddingLeft="38.0px" android:paddingTop="23.0px" android:paddingRight="38.0px" android:paddingBottom="23.0px" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="286.0px" />
+    <com.mobile.brasiltv.view.KoocanButton android:textSize="12.0sp" android:textColor="@color/color_ffffff" android:id="@id/dialog_submit" android:background="@drawable/bg_upgrade_confirm" android:layout_width="fill_parent" android:layout_height="60.0px" android:layout_marginLeft="68.0px" android:layout_marginRight="68.0px" android:layout_marginBottom="23.0px" android:text="@string/upgrade" />
+    <com.mobile.brasiltv.view.KoocanButton android:textSize="12.0sp" android:textColor="@color/color_important" android:id="@id/dialog_cancel" android:background="@drawable/bg_home_upgrade_cancel" android:layout_width="fill_parent" android:layout_height="60.0px" android:layout_marginLeft="68.0px" android:layout_marginRight="68.0px" android:layout_marginBottom="30.0px" android:text="@string/mine_setting_update_neg" />
+</com.zhy.autolayout.AutoLinearLayout>

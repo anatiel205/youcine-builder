@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="YouCineMobile" path="YouCineMobile" />
+    <cache-path name="cache_path" path="." />
+    <external-cache-path name="ex_cache" path="." />
+</paths>
