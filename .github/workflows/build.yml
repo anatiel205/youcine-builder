@@ -18,7 +18,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Recompile APK
-      run: java -jar apktool.jar b youcine_decompiled --use-aapt2 -o youcine_MOD.apk
+      run: java -jar apktool.jar b youcine_decompiled -o youcine_MOD.apk
 
     - name: Sign APK
       run: java -jar uber-apk-signer-1.3.0.jar --apks youcine_MOD.apk
