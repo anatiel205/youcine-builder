@@ -551,7 +551,7 @@
 
     cmp-long v5, v6, v8
 
-    if-eqz v5, :cond_2
+    goto :cond_2
 
     invoke-static {v4, v0, v2}, Ls/h/e/l/l/S;->c(Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/io/File;)V
 
@@ -576,7 +576,7 @@
 
     cmp-long v1, v6, v8
 
-    if-eqz v1, :cond_3
+    goto :cond_3
 
     invoke-static {v4, v0, v3}, Ls/h/e/l/l/S;->c(Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/io/File;)V
 

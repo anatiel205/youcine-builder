@@ -1,7 +1,6 @@
 name: Build Android APK
 
 on:
-  # Permite que você execute este workflow manualmente a partir da aba Actions
   workflow_dispatch:
 
 jobs:
@@ -9,30 +8,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. Baixa o código do seu repositório para o ambiente de execução
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    # 2. Configura o ambiente Java (necessário para apktool e o assinador)
     - name: Set up JDK 11
       uses: actions/setup-java@v3
       with:
         java-version: '11'
         distribution: 'temurin'
 
-    # 3. Recompila o APK usando o apktool
     - name: Recompile APK
       run: java -jar apktool.jar b youcine_decompiled --use-aapt2 -o youcine_MOD.apk
 
-    # 4. Assina o APK gerado
     - name: Sign APK
       run: java -jar uber-apk-signer-1.3.0.jar --apks youcine_MOD.apk
 
-    # 5. Faz o upload do APK final como um "artefato"
-    #    Isso permitirá que você baixe o arquivo no final da execução
+    - name: List files to debug
+      run: ls -R
+
     - name: Upload Final APK
-      uses: actions/upload-artifact@v4 # <-- AQUI ESTÁ A CORREÇÃO
+      uses: actions/upload-artifact@v4
       with:
         name: Signed-Youcine-APK
         path: youcine_MOD-aligned-debugSigned.apk
-        
